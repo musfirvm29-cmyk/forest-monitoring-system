@@ -1,0 +1,21 @@
+{
+  "name": "forest-monitoring-system",
+  "version": "0.1.0",
+  "description": "AI-Powered Forest Resources Monitoring System",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "ai-services"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces",
+    "test": "npm test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "devDependencies": {
+    "lerna": "^7.0.0"
+  }
+}
